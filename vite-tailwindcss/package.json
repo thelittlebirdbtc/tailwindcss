@@ -2,7 +2,7 @@
   "name": "vite-tailwindcss",
   "version": "1.0.0",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "dev": "vite dev"
   },
@@ -11,6 +11,8 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "vite": "^6.1.0"
   },
   "dependencies": {
