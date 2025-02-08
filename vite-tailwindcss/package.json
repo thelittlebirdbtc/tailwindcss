@@ -2,6 +2,7 @@
   "name": "vite-tailwindcss",
   "version": "1.0.0",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "dev": "vite dev"
   },
@@ -11,5 +12,9 @@
   "description": "",
   "devDependencies": {
     "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.4",
+    "tailwindcss": "^4.0.4"
   }
 }
