@@ -6,6 +6,19 @@
 @theme {
     --font-display: 'inria sans', sans-serif;
     --font-testimonial: 'DM Sans', sans-serif;
+    --animate-leftright: leftright 1s ease-in-out infinite;
 }
+
+@keyframes leftright {
+    0%,
+    100% {
+      transform: translate(-20px);
+    }
+  
+    50% {
+      transform: translate(20px)
+    }
+  }
+
 
 @custom-variant dark (&:where(.dark, .dark *));
