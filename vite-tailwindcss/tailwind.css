@@ -7,3 +7,5 @@
     --font-display: 'inria sans', sans-serif;
     --font-testimonial: 'DM Sans', sans-serif;
 }
+
+@custom-variant dark (&:where(.dark, .dark *));
